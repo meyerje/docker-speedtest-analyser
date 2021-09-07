@@ -16,6 +16,7 @@ RUN apk update && apk add \
 
 
 RUN pip install speedtest-cli
+RUN pip3 install speedtest-cli
 
 # remove default content
 RUN rm -R /var/www/*
